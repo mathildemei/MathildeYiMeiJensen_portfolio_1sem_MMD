@@ -17,9 +17,15 @@ body {
 
 }
 
+p {
+    line-break: 65ch;
+    line-height: 2em;
+}
+
 /* Styling footer */
 footer {
     font-family: interb;
+    padding-left: 40px;
 }
 
 /* Styling logo*/
@@ -66,7 +72,6 @@ nav li:hover ul {
     visibility: visible;
 }
 
-
 /* Links LoVeHAte */
 a:link {
     color: black;
@@ -83,4 +88,31 @@ a:hover {
 
 a:active {
     color: yellow
+}
+
+/* Styling af img */
+img {
+    width: 100%;
+}
+
+/* Styling af linje i midten */
+@media screen and (min-width: 900px) {
+
+    .center-line {
+        width: 5px;
+        height: 200%;
+        background-color: black;
+        position: absolute;
+        left: 700px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .center-line {
+        display: none;
+    }
+}
+
+.padding {
+    padding-right: 50px;
 }

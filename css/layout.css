@@ -1,0 +1,14 @@
+/* Styling sections */
+section {
+    margin-top: 300px;
+    padding-left: 40px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+}

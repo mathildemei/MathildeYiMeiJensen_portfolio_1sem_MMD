@@ -117,43 +117,6 @@ nav li:hover ul {
     visibility: visible;
 }
 
-/* Styling global menu home page*/
-#nav_list_home {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-}
-
-#nav_list_home li a {
-    text-decoration: none;
-    padding: 10px 20px;
-    color: white;
-    display: block;
-    height: 100%;
-}
-
-/* Styling af drop down menu home page */
-nav li {
-    position: relative;
-}
-
-nav li ul {
-    position: absolute;
-    visibility: hidden;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    width: 200%;
-    text-align: left;
-    list-style: none;
-    left: -38px;
-}
-
-nav li:hover ul {
-    visibility: visible;
-}
-
 /* Links LoVeHAte */
 a:link {
     color: black;

@@ -18,13 +18,46 @@ body {
 }
 
 p {
-    line-break: 65ch;
+    max-width: 65ch;
     line-height: 2em;
+}
+
+h1 {
+    font-family: interb;
+    font-size: 7em;
+}
+
+h3 {
+    font-family: interb;
+}
+
+.padding-top {
+    padding-top: 15px;
+}
+
+.padding-bottom {
+    padding-bottom: 500px;
 }
 
 /* Styling footer */
 footer {
     font-family: interb;
+    padding-left: 40px;
+}
+
+/* Styling sections og articles */
+section {
+    margin-top: 300px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+
+.border-bottom {
+    border-bottom: solid 5px black;
+}
+
+article {
+    padding-top: 70px;
     padding-left: 40px;
 }
 

@@ -1,3 +1,87 @@
+/* Fonts taget fra internettet*/
+@font-face {
+    font-family: inter;
+    src: url(/fonts/inter-variablefont_slntwght-webfont.woff2);
+}
+
+@font-face {
+    font-family: interb;
+    src: url(/fonts/Inter-Bold.woff2);
+}
+
+/* Styling body */
+body {
+    font-family: inter;
+    background-color: black;
+    color: white;
+
+}
+
+p {
+    max-width: 65ch;
+    line-height: 2em;
+}
+
+h1 {
+    font-family: interb;
+    font-size: 7em;
+}
+
+h2 {
+    font-family: interb;
+    font-size: 2.3em;
+}
+
+
+/* Styling footer */
+footer {
+    font-family: interb;
+    padding-left: 120px;
+}
+
+/* Styling sections og articles */
+section {
+    margin-top: 300px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+
+article {
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#border-bottom {
+    border-bottom: solid 5px whitesmoke;
+}
+
+#littlepadbot1 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: solid 3px white;
+    border-top: solid 3px white;
+}
+
+#littlepadbot2 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: solid 3px white;
+}
+
+/* Styling logo*/
+#logo {
+    position: absolute;
+    left: 120px;
+    top: 75px;
+}
+
+#logo_home {
+    position: absolute;
+    left: 120px;
+    top: 75px;
+}
+
 /* Styling global menu home page*/
 #nav_list_home {
     list-style: none;
@@ -51,4 +135,20 @@ a:hover {
 
 a:active {
     color: yellow
+}
+
+/* Buttons*/
+.primary-btn {
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    font-size: 1em;
+    padding: 14px 55px;
+    text-align: center;
+}
+
+.primary-btn:hover {
+    background-color: black;
+    border-color: #A0D9EB;
+    color: white;
 }

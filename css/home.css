@@ -43,7 +43,7 @@ footer {
 section {
     margin-top: 300px;
     padding-left: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 258px;
 }
 
 article {
@@ -151,4 +151,17 @@ a:active {
     background-color: black;
     border-color: #A0D9EB;
     color: white;
+}
+
+
+/* Styling af linje i midten på idex.html*/
+@media screen and (min-width: 1200px) {
+
+    .center-line {
+        width: 5px;
+        height: 200%;
+        background-color: white;
+        position: absolute;
+        left: 740px;
+    }
 }

@@ -1,0 +1,90 @@
+/* Styling af elementer */
+#ball_1 {
+    position: absolute;
+    left: 74%;
+    top: 250%;
+}
+
+#ball_2 {
+    position: absolute;
+    left: 17%;
+    top: 300%;
+}
+
+#ball_3 {
+    position: absolute;
+    left: 60%;
+    top: 380%;
+}
+
+#ball_4 {
+    position: absolute;
+    left: 12%;
+    top: 450%;
+}
+
+
+/* Animationer */
+.zoom_in1 {
+    animation-name: zoom_in1_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom_in1_kf {
+    from {
+        transform: scale(0.7);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+.zoom_in2 {
+    animation-name: zoom_in2_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom_in2_kf {
+    from {
+        transform: scale(0.2);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
+
+.zoom_in3 {
+    animation-name: zoom_in3_kf;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom_in3_kf {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(3);
+    }
+}
+
+.zoom_in4 {
+    animation-name: zoom_in4_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom_in4_kf {
+    from {
+        transform: scale(0.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

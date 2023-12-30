@@ -58,10 +58,6 @@ article {
     padding-right: 120px;
 }
 
-.border-bottom {
-    border-bottom: solid 5px black;
-}
-
 .border-right {
     border-right: solid 5px black;
 }
@@ -218,7 +214,9 @@ img {
         top: 90%;
     }
 
-
+    .border-bottom {
+        border-bottom: solid 5px black;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -228,6 +226,8 @@ img {
     #line3 {
         display: none;
     }
+
+
 }
 
 /* #main-content {

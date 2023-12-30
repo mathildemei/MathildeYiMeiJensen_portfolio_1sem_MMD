@@ -50,10 +50,6 @@ article {
     padding-bottom: 2700px;
 }
 
-#border-bottom {
-    border-bottom: solid 5px whitesmoke;
-}
-
 #littlepadbot1 {
     padding-bottom: 40px;
     padding-top: 40px;
@@ -161,5 +157,9 @@ a:active {
         background-color: white;
         position: absolute;
         left: 740px;
+    }
+
+    #border-bottom {
+        border-bottom: solid 5px whitesmoke;
     }
 }

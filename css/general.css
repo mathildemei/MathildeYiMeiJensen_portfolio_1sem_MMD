@@ -2,11 +2,13 @@
 @font-face {
     font-family: inter;
     src: url(/fonts/inter-variablefont_slntwght-webfont.woff2);
+    font-display: swap
 }
 
 @font-face {
     font-family: interb;
     src: url(/fonts/Inter-Bold.woff2);
+    font-display: swap
 }
 
 /* Styling body */
@@ -79,12 +81,8 @@ article {
     position: absolute;
     left: 120px;
     top: 75px;
-}
-
-#logo_home {
-    position: absolute;
-    left: 120px;
-    top: 75px;
+    width: auto;
+    height: auto;
 }
 
 /* Styling global menu*/

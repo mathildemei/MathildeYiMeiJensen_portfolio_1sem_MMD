@@ -163,3 +163,28 @@ a:active {
         border-bottom: solid 5px whitesmoke;
     }
 }
+
+/* Styling af js funktion*/
+/* #scrollTop {
+    position: absolute;
+    top: 580%;
+    left: 90%;
+    width: 3.5%;
+    aspect-ratio: 50/29;
+    background-image: url(../img/index/totop.svg);
+    background-size: 100%;
+} */
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.stt {
+    position: absolute;
+    top: 580%;
+    left: 90%;
+    width: 3.5%;
+    aspect-ratio: 50/29;
+    background-image: url(../img/index/totop.svg);
+    background-size: 100%;
+}

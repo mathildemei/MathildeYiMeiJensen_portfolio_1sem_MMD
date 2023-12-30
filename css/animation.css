@@ -88,3 +88,17 @@
         transform: scale(1);
     }
 }
+
+/* .up {
+    animation: up 2.2s infinite linear;
+}
+
+@keyframes up {
+    from {
+        translate: 0 -100%;
+    }
+
+    to {
+        translate: 0 0%;
+    }
+} */

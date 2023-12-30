@@ -1,13 +1,12 @@
+
+// window.addEventListener("load", scrollTo);
+
 // // deklarerer constanten
-// const ToTop = document.querySelector("#scrollTop");
+// const scrollTop = document.querySelector("#scrollTop");
 
-// // lyt efter klik funktionen
-// document.querySelector("#totop").addEventListener("click", smoothScroll);
+// function scrollTo() {
+//     console.log("scrollTo");
+//     document.querySelector("#scrollTop").classList.add("up");
+//     document.querySelector("#scrollTop").addEventListener("click", scrollTop);
 
-// function smoothScroll() {
-
-//     document.querySelector("#totop").addEventListener("click", smoothScroll);
-
-//     window.scrollTo (0,0);
-    
-
+//   }

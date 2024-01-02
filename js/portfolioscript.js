@@ -1,3 +1,5 @@
+document.querySelector("#scrollTop").addEventListener("click", )
+
 
 // window.addEventListener("load", scrollTo);
 

@@ -163,7 +163,7 @@ a:active {
 }
 
 /* Styling af js funktion*/
-/* #scrollTop {
+#scrollTop {
     position: absolute;
     top: 580%;
     left: 90%;
@@ -171,9 +171,9 @@ a:active {
     aspect-ratio: 50/29;
     background-image: url(../img/index/totop.svg);
     background-size: 100%;
-} */
+}
 
-:root {
+/* :root {
     scroll-behavior: smooth;
 }
 
@@ -185,4 +185,4 @@ a:active {
     aspect-ratio: 50/29;
     background-image: url(../img/index/totop.svg);
     background-size: 100%;
-}
+} */

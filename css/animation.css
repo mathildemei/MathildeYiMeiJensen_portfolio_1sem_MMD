@@ -2,7 +2,7 @@
 #ball_1 {
     position: absolute;
     left: 74%;
-    top: 250%;
+    top: 275%;
     width: auto;
     height: auto;
 }
@@ -10,7 +10,7 @@
 #ball_2 {
     position: absolute;
     left: 17%;
-    top: 300%;
+    top: 325%;
     width: auto;
     height: auto;
 }
@@ -18,7 +18,7 @@
 #ball_3 {
     position: absolute;
     left: 60%;
-    top: 380%;
+    top: 405%;
     width: auto;
     height: auto;
 }
@@ -26,7 +26,7 @@
 #ball_4 {
     position: absolute;
     left: 12%;
-    top: 450%;
+    top: 475%;
     width: auto;
     height: auto;
 }

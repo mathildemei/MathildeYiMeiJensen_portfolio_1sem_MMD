@@ -130,7 +130,7 @@ a:link {
 }
 
 a:visited {
-    color: pink;
+    color: #A0D9EB;
 }
 
 a:hover {
@@ -149,6 +149,8 @@ a:active {
     font-size: 1em;
     padding: 14px 55px;
     text-align: center;
+    width: 30%;
+    height: 20%;
 }
 
 .primary-btn:hover {

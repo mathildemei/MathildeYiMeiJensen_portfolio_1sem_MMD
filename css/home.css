@@ -164,7 +164,7 @@ a:active {
 @media screen and (min-width: 1200px) {
 
     .center-line {
-        width: 5px;
+        width: 3px;
         height: 200%;
         background-color: white;
         position: absolute;
@@ -172,7 +172,7 @@ a:active {
     }
 
     #border-bottom {
-        border-bottom: solid 5px white;
+        border-bottom: solid 3px white;
     }
 }
 

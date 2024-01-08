@@ -56,12 +56,16 @@ section {
 
 article {
     padding-top: 70px;
-    padding-left: 120px;
+    padding-left: 80px;
     padding-right: 120px;
 }
 
+.portfolio_headline {
+    margin-left: 345px;
+}
+
 .border-bottom {
-    border-bottom: solid 5px black;
+    border-bottom: solid 3px black;
 }
 
 .border-right {
@@ -144,6 +148,23 @@ a:active {
     color: yellow
 }
 
+/* Buttons*/
+.secondary-btn {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    font-size: 1em;
+    padding: 14px 55px;
+    text-align: center;
+    width: 30%;
+    height: 20%;
+}
+
+.secondary-btn:hover,
+.secondary-btn.active {
+    font-family: interb, sans-serif;
+}
+
 /* Styling af img */
 img {
     width: 100%;
@@ -153,7 +174,7 @@ img {
 @media screen and (min-width: 1200px) {
 
     .center-line {
-        width: 5px;
+        width: 3px;
         height: 200%;
         background-color: black;
         position: absolute;

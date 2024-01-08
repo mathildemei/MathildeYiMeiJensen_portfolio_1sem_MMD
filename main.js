@@ -1,14 +1,15 @@
-// Get the button:
+// deklarer min variabel: button
 let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// Når brugeren scroller den fra toppen af aktiveres knappen
 window.onscroll = function() {scrollFunction()};
 
+// Kalder funktionen
 function scrollFunction() {
   console.log(document.documentElement.scrollTop)
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// Når brugeren klikker på knappen, bliver brugeren til tilbage til toppen af siden
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera

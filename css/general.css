@@ -25,16 +25,16 @@ p {
 }
 
 h1 {
-    font-family: interb;
+    font-family: interb, sans-serif;
     font-size: 7em;
 }
 
 h2 {
-    font-family: interb;
+    font-family: interb, sans-serif;
 }
 
 h3 {
-    font-family: interb;
+    font-family: interb, sans-serif;
 }
 
 .portfolio_headline {
@@ -43,7 +43,7 @@ h3 {
 
 /* Styling footer */
 footer {
-    font-family: interb;
+    font-family: interb, sans-serif;
     padding-left: 120px;
 }
 

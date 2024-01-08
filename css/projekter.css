@@ -37,6 +37,10 @@ h3 {
     font-family: interb, sans-serif;
 }
 
+.portfolio_headline {
+    margin-left: 345px;
+}
+
 /* Styling footer */
 footer {
     font-family: interb, sans-serif;
@@ -54,22 +58,6 @@ article {
     padding-top: 70px;
     padding-left: 120px;
     padding-right: 120px;
-}
-
-.border-bottom {
-    border-bottom: solid 5px black;
-}
-
-.border-right {
-    border-right: solid 5px black;
-}
-
-.padding-top {
-    padding-top: 15px;
-}
-
-.padding-bottom {
-    padding-bottom: 500px;
 }
 
 .littlepadbot {
@@ -128,20 +116,37 @@ nav li:hover ul {
 
 /* Links LoVeHAte */
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
-    font-family: interb, sans-serif;
+    font-family: interb;
 }
 
 a:active {
     color: yellow
+}
+
+/* Buttons*/
+.secondary-btn {
+    background-color: #A0D9EB;
+    color: white;
+    font-size: 1em;
+    padding: 14px 55px;
+    text-align: center;
+    width: 30%;
+    height: 20%;
+}
+
+.secondary-btn:hover,
+.secondary-btn.active {
+    background-color: #88CCE2;
+    color: white;
 }
 
 /* Styling af img */
@@ -149,24 +154,45 @@ img {
     width: 100%;
 }
 
-/* Styling af linje i midten på om_mig.html*/
+/* Styling af grid-linjer på portfolio.html*/
 @media screen and (min-width: 1200px) {
-
-    .center-line {
+    #line1 {
         width: 5px;
-        height: 200%;
+        height: 150%;
         background-color: black;
         position: absolute;
-        left: 740px;
+        left: 417px;
+        top: 90%;
+    }
+
+    #line2 {
+        width: 5px;
+        height: 150%;
+        background-color: black;
+        position: absolute;
+        left: 717px;
+        top: 90%;
+    }
+
+    #line3 {
+        width: 5px;
+        height: 150%;
+        background-color: black;
+        position: absolute;
+        left: 1017px;
+        top: 90%;
+    }
+
+    .border-bottom {
+        border-bottom: solid 5px black;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .center-line {
+
+    #line1,
+    #line2,
+    #line3 {
         display: none;
     }
-}
-
-.padding {
-    padding-right: 50px;
 }

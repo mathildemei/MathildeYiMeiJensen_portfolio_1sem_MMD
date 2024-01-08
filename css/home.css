@@ -92,6 +92,7 @@ article {
     display: flex;
     justify-content: flex-end;
     padding: 20px;
+    font-family: interb, sans-serif;
 }
 
 #nav_list_home li a {
@@ -100,6 +101,7 @@ article {
     color: white;
     display: block;
     height: 100%;
+    font-family: interb, sans-serif;
 }
 
 /* Styling af drop down menu home page */
@@ -117,10 +119,12 @@ nav li ul {
     text-align: left;
     list-style: none;
     left: -38px;
+    font-family: interb, sans-serif;
 }
 
 nav li:hover ul {
     visibility: visible;
+    font-family: interb, sans-serif;
 }
 
 /* Links LoVeHAte */
@@ -134,7 +138,7 @@ a:visited {
 }
 
 a:hover {
-    font-family: interb;
+    font-family: interb, sans-serif;
 }
 
 a:active {
@@ -172,7 +176,7 @@ a:active {
     }
 
     #border-bottom {
-        border-bottom: solid 5px whitesmoke;
+        border-bottom: solid 5px white;
     }
 }
 

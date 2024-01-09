@@ -23,19 +23,19 @@ p {
 }
 
 h1 {
-    font-family: interb, sans-serif;
+    font-family: inter, sans-serif;
     font-size: 7em;
 }
 
 h2 {
-    font-family: interb, sans-serif;
+    font-family: inter, sans-serif;
     font-size: 2.3em;
 }
 
 
 /* Styling footer */
 footer {
-    font-family: interb, sans-serif;
+    font-family: inter, sans-serif;
     padding-left: 120px;
 }
 

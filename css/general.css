@@ -9,9 +9,14 @@
     src: url(/fonts/Inter-Bold-1.woff2);
 }
 
+@font-face {
+    font-family: interl;
+    src: url(/fonts/Inter-Light.woff2);
+}
+
 /* Styling body */
 body {
-    font-family: inter, sans-serif;
+    font-family: interl, sans-serif;
     background-color: white;
     color: black;
 
@@ -23,25 +28,25 @@ p {
 }
 
 h1 {
-    font-family: inter, sans-serif;
+    font-family: interl, sans-serif;
     font-size: 7em;
 }
 
 h2 {
-    font-family: inter, sans-serif;
+    font-family: interl, sans-serif;
 }
 
 h3 {
-    font-family: inter, sans-serif;
+    font-family: interl, sans-serif;
 }
 
 h4 {
-    font-family: inter, sans-serif;
+    font-family: interl, sans-serif;
 }
 
 /* Styling footer */
 footer {
-    font-family: inter, sans-serif;
+    font-family: interl, sans-serif;
     padding-left: 120px;
 }
 
@@ -160,7 +165,7 @@ a:active {
 
 .secondary-btn:hover,
 .secondary-btn.active {
-    font-family: interb, sans-serif;
+    font-family: inter, sans-serif;
 }
 
 /* Styling af img */

@@ -1,12 +1,12 @@
 /* Fonts taget fra internettet*/
 @font-face {
     font-family: inter;
-    src: url(/fonts/Inter-Regular.woff2);
+    src: url(../fonts/Inter-Regular.woff2);
 }
 
 @font-face {
     font-family: interb;
-    src: url(/fonts/Inter-Bold-1.woff2);
+    src: url(../fonts/Inter-Bold-1.woff2);
 }
 
 @font-face {
@@ -25,6 +25,7 @@ body {
 p {
     max-width: 65ch;
     line-height: 2em;
+    font-family: interl, sans-serif;
 }
 
 h1 {
@@ -165,7 +166,7 @@ a:active {
 
 .secondary-btn:hover,
 .secondary-btn.active {
-    font-family: inter, sans-serif;
+    font-family: interb, sans-serif;
 }
 
 /* Styling af img */

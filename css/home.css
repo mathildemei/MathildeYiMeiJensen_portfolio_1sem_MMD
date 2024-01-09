@@ -1,17 +1,17 @@
 /* Fonts taget fra internettet*/
 @font-face {
     font-family: inter;
-    src: url(/fonts/Inter-Regular.woff2);
+    src: url(../fonts/Inter-Regular.woff2);
 }
 
 @font-face {
     font-family: interb;
-    src: url(/fonts/Inter-Bold-1.woff2);
+    src: url(../fonts/Inter-Bold-1.woff2);
 }
 
 @font-face {
     font-family: interl;
-    src: url(/fonts/Inter-Light.woff2);
+    src: url(../fonts/Inter-Light.woff2);
 }
 
 /* Styling body */
@@ -25,10 +25,11 @@ body {
 p {
     max-width: 65ch;
     line-height: 2em;
+    font-family: interl, sans-serif;
 }
 
 h1 {
-    font-family: inter, sans-serif;
+    font-family: interl, sans-serif;
     font-size: 7em;
 }
 
@@ -137,7 +138,7 @@ a:visited {
 }
 
 a:hover {
-    font-family: inter, sans-serif;
+    font-family: interb, sans-serif;
 }
 
 a:active {
@@ -160,6 +161,7 @@ a:active {
     background-color: black;
     border-color: #A0D9EB;
     color: white;
+    font-family: interb;
 }
 
 

@@ -1,12 +1,12 @@
 /* Fonts taget fra internettet*/
 @font-face {
     font-family: inter;
-    src: url(/fonts/inter-variablefont_slntwght-webfont.woff2);
+    src: url(/fonts/Inter-Regular.woff2);
 }
 
 @font-face {
     font-family: interb;
-    src: url(/fonts/Inter-Bold.woff2);
+    src: url(/fonts/Inter-Bold-1.woff2);
 }
 
 /* Styling body */

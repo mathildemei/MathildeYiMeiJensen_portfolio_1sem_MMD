@@ -9,14 +9,9 @@
     src: url(../fonts/Inter-Bold-1.woff2);
 }
 
-@font-face {
-    font-family: interl;
-    src: url(../fonts/Inter-Light.woff2);
-}
-
 /* Styling body */
 body {
-    font-family: interl, sans-serif;
+    font-family: inter, sans-serif;
     background-color: black;
     color: white;
 
@@ -25,23 +20,23 @@ body {
 p {
     max-width: 65ch;
     line-height: 2em;
-    font-family: interl, sans-serif;
+    font-family: inter, sans-serif;
 }
 
 h1 {
-    font-family: interl, sans-serif;
+    font-family: inter, sans-serif;
     font-size: 7em;
 }
 
 h2 {
-    font-family: interl, sans-serif;
+    font-family: inter, sans-serif;
     font-size: 2.3em;
 }
 
 
 /* Styling footer */
 footer {
-    font-family: interl, sans-serif;
+    font-family: inter, sans-serif;
     padding-left: 120px;
 }
 
